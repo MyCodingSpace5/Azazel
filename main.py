@@ -16,7 +16,7 @@ class Actions(Enum):
     RIGHT_TRIGGER = 12
     LEFT_BUTTON = 13
     RIGHT_BUTTON = 14
-class Module(nn.Module):
+class Network(nn.Module):
     def __init___(self):
         super().__init__()
         
